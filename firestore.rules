@@ -10,6 +10,10 @@ service cloud.firestore {
       allow delete: if resourceMatchesUid();
     }
 
+    match /customers/{document} {
+      allow read;
+    }
+
     function requestMatchesUid() {
       return request.auth.uid == request.resource.data.uid;
     }

@@ -15,7 +15,6 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
 import { TaskDialogComponent } from './dialogs/task-dialog.component';
 
-// import { TaskDialogComponent } from './dialogs/task-dialog.component';
 
 @NgModule({
   declarations: [

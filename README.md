@@ -24,38 +24,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-ng --version
-ng help
-ng generate --help
-ng add --help
-
-ng add @angular/material
-material.angular.io
-material.angular.io/components
-
-ng add @angular/fire
-
-ng g module shared
-ng g component shared/shell --export
-
-ng g component home-page
-
-ng g module user --routing
-ng g component user/login-page
-ng g directive user/google-signin
-ng g c user/email-login
-
-ng g guard user/auth
-ng g service services/notification
-
-ng g module kanban --routing
-ng g service kanban/board
-ng g c kanban/board
-ng g c kanban/boards-list
-ng g c kanban/dialogs/board-dialog --flat --entry-component -t -s
-ng g c kanban/dialogs/task-dialog --flat --entry-component -t -s
-
-firebase emulators:start --only firestore
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md)

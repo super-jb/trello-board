@@ -17,6 +17,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./kanban/kanban.module').then(u => u.KanbanModule),
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'customers',
+    loadChildren: () =>
+      import('./customers/customers.module').then(u => u.CustomersModule)
   }
 ];
 
